@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        background-color: #000000;
+        color: white;
+        font-family: sans-serif;
+    }
+
+    nav {
+        width: 100%;
+        /* background-color: red; */
+        display: grid;
+        grid-template-columns: 100fr 100fr 100fr;
+    }
+
+    .logo img {
+        width: 14vw;
+        border-radius: 50%;
+        margin: 3vw;
+        margin-left: 5vw;
+    }
+
+    .navigation-box {
+        display: none;
+    }
+
+    .some-box button {
+        display: none;
+    }
+
+    .menu-bar {
+        cursor: pointer;
+        display: inline-block;
+        width: 8vw;
+        margin: 3vw;
+        margin-right: 5vw;
+    }
+
+}
