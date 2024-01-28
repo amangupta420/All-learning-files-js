@@ -1,0 +1,32 @@
+/* Initial body tag styles. */
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #000000;
+    color: white;
+    font-family: sans-serif;
+}
+
+/* Down arrow slider container. */
+.down-slider-container {
+    width: 100%;
+    height: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down-arrow-box {
+    background-color: rgba(255, 255, 255, 0.152);
+    width: 30%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+}
+
+.down-arrow-box img {
+    width: 20px;
+}

@@ -9,26 +9,29 @@
     <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/home-container.css">
+    <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/media queries.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Welcome to my portfolio</title>
 </head>
 
 <body>
+    <canvas style="position: absolute; z-index: -1;" id="myCanvas"></canvas>
     <header>
         <nav>
             <div class="left-box">
                 <div class="logo">
-                    <img src="images/aman-gupta.jpg" alt="">
+                    <img src="images/logo.jpeg" alt="">
                 </div>
             </div>
             <div class="middle-box">
                 <nav class="navigation-box">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="html/01. works.html">Works</a></li>
-                        <li><a href="html/02. about me.html">About me</a></li>
-                        <li><a href="html/03. contact.html">Contact</a></li>
+                        <li>Home</li>
+                        <li>Works</li>
+                        <li>About me</li>
+                        <li>Contact</li>
                     </ul>
                 </nav>
             </div>
@@ -41,14 +44,38 @@
             </div>
         </nav>
     </header>
-    <div class="container">
-aman
+    <div class="home-container">
+        <div class="home-box">
+            <div class="left-item">
+                <div class="starter-box">
+                    <h1 class="welcome-tag">🙂 Welcome dear 🙂</h1>
+                    <h2>I am Aman gupta 😎 & Web developer 👨.</h2>
+                </div>
+            </div>
+            <div class="right-item">
+                <div class="image">
+                    <img src="images/aman-gupta.png" alt="">
+                    <div class="name-box">Aman gupta
+                        <div>Web developer based in INDIA.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="down-slider-container">
+        <div class="down-arrow-box">
+            <img src="images/down-arrow.svg" alt="">
+            <img src="images/down-arrow.svg" alt="">
+            <img src="images/down-arrow.svg" alt="">
+        </div>
     </div>
 </body>
 
 <!-- Our codes -->
 <script src="js/main.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/animate-flowers-in-background.js"></script>
 <script>
     AOS.init();
+
 </script>
