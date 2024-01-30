@@ -1,32 +1,28 @@
 /* Initial body tag styles. */
 body {
-    margin: 0px;
-    padding: 0px;
+    margin: 0vw;
+    padding: 0vw;
     box-sizing: border-box;
     background-color: #000000;
     color: white;
-    font-family: sans-serif;
+    font-family: serif;
 }
 
-/* Down arrow slider container. */
-.down-slider-container {
-    width: 100%;
-    height: 97px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.down-arrow-box {
-    background-color: rgba(255, 255, 255, 0.152);
-    width: 30%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 35px;
+button {
+    cursor: pointer;
+    margin: 0.5vw;
+    margin-right: 3vw;
+    background-color: blue;
+    padding: 0.5vw 1vw;
+    font-family: serif;
+    font-size: 1vw;
+    color: White;
+    border-radius: 3.5vw;
 }
 
-.down-arrow-box img {
-    width: 20px;
-}
+.down-slider {}

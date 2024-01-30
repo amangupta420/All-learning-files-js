@@ -38,4 +38,7 @@
         margin: 3vw;
         margin-right: 5vw;
     }
+    .right-item{
+        display: none;
+    }
 }

@@ -7,24 +7,34 @@
     <meta http-equiv=“Pragma” content=”no-cache”>
     <meta http-equiv=“Expires” content=”-1″>
     <meta http-equiv=“CACHE-CONTROL” content=”NO-CACHE”>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon">
     <!-- CSS Stylesheets -->
     <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/home-container.css">
+    <!-- Navigation bar layout css file. -->
     <link rel="stylesheet" href="css/navbar.css">
+    <!-- Home layout css file -->
+    <link rel="stylesheet" href="css/home-container.css">
+    <!-- Media queries css file for responsive desgin. -->
     <link rel="stylesheet" href="css/media queries.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Tittle -->
     <title>Welcome to my portfolio</title>
 </head>
 
 <body>
-    <canvas style="position: absolute; z-index: -1;" id="myCanvas"></canvas>
+    <!-- Header for navigation bar. -->
     <header>
         <nav>
+            <!-- Left items of the navigation bar. -->
+            <!-- Canvas element for background design. -->
+            <canvas style="position: absolute; z-index: -1;" id="myCanvas"></canvas>
             <div class="left-box">
                 <div class="logo">
                     <img src="images/logo.jpeg" alt="">
                 </div>
             </div>
+            <!-- Middle items of the navigation bar. -->
             <div class="middle-box">
                 <nav class="navigation-box">
                     <ul>
@@ -35,46 +45,71 @@
                     </ul>
                 </nav>
             </div>
+            <!-- right items of the navigation bar. -->
             <div class="right-box">
                 <div class="some-box">
-                    <button class="some-btn">Explore</button>
+                    <button class="some-btn">Start chat</button>
                     <img class="menu-bar" src="images/menu-bar.svg" alt="">
                     <img class="cross" src="images/cross.svg" alt="">
                 </div>
             </div>
         </nav>
     </header>
+    <!-- <canvas style="position: absolute; z-index: -1;" id="myCanvas"></canvas> -->
+
+    <!-- Home container & front page as an landing page. -->
     <div class="home-container">
         <div class="home-box">
+            <!-- Left items of the home container. -->
             <div class="left-item">
                 <div class="starter-box">
                     <h1 class="welcome-tag">🙂 Welcome dear 🙂</h1>
                     <h2>I am Aman gupta 😎 & Web developer 👨.</h2>
+                    <p>I am 17 years old a student of 12th standard and I am also a <strong>Web developer</strong> and I
+                        have the experience of web development over the <strong>2 Years</strong> Still, I am looking for
+                        a job because this is the last year of my school and I am able to make awesome website for
+                        Digital marketers, Businesses, Influencers etc. I have the knowledge of these three
+                        languages.(1) HTML (2) CSS (3) Javascript. <br>Take a look of my projects:-</p>
+                    <ul class="project-show-container">
+                        <li class="item-1">
+                            <p>This is my first website:</p>
+                            <img class="project-image" src="images/project-1.png" alt="">
+                            <button class="project-link-btn"><a href="#">Visit site</a></button>
+                        </li>
+                        <li class="item-2">
+                            <p>This is my first website:</p>
+                            <img class="project-image" src="images/project-1.png" alt="">
+                            <button class="project-link-btn"><a href="#">Visit site</a></button>
+                        </li>
+                        <li class="item-3">
+                            <p>This is my first website:</p>
+                            <img class="project-image" src="images/project-1.png" alt="">
+                            <button class="project-link-btn"><a href="#">Visit site</a></button>
+                        </li>
+                    </ul>
                 </div>
             </div>
+            <!-- right items of the home container. -->
             <div class="right-item">
                 <div class="image">
                     <img src="images/aman-gupta.png" alt="">
                     <div class="name-box">Aman gupta
-                        <div>Web developer based in INDIA.</div>
+                        <div>Web developer</div>
+                        <div>Skills: HTML, CSS, Javascript.</div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="down-slider-container">
-        <div class="down-arrow-box">
-            <img src="images/down-arrow.svg" alt="">
-            <img src="images/down-arrow.svg" alt="">
-            <img src="images/down-arrow.svg" alt="">
-        </div>
-    </div>
+    <div class="down-slider"></div>
 </body>
-
-<!-- Our codes -->
+<!-- Main file of Javascript -->
 <script src="js/main.js"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Javascript file for background desgin. -->
 <script src="js/animate-flowers-in-background.js"></script>
+<!-- Link of the javascript library AOS. Which is use for Animate elements on scroll. -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Javascript codes -->
 <script>
     AOS.init();
 
